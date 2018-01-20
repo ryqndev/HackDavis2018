@@ -1,11 +1,18 @@
 body{
-    background-color: aliceblue;
+    background-color: black;
 }
 .heroBG{
     background-image: url(images/);
     background-size: cover;
     background-position: center;
 }
+h1{
+    font-size: 70px;
+    color:brown;
+    border: 10px solid green;
+    border-radius: 35px;
+}
+
 .sectionOne{
     
 }
