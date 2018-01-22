@@ -4,7 +4,7 @@
 
 # How to Use
 
-To see how this app works, sign up for a developers account at <a href="https://www.twilio.com/> twilio </a> and open up the script.js file.
+To see how this app works, sign up for a developers account at https://www.twilio.com/ and open up the script.js file.
 <br>
 Replace the Authentication token, AccountSID and phone number with the ones associated with your account.
 
