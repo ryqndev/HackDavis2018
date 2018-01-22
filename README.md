@@ -15,20 +15,18 @@ Download Apache Cordova and open up terminal (for mac).
 <br>
 When you're in the directory you want to have your app in, type
 <br>
->cordova create (APP_NAME)
-
+> cordova create (APP_NAME)
 <br>
 Look into your folder and find a folder called 'www'
 <br>
 Delete the files inside the folder and navigate back to the HackDavis2018 folder and copy all the files and paste it into 'www'
 <br>
 Go back to your terminal and type
+<br>
+> cd (APP_NAME)
 
 <br>
->cd (APP_NAME)
-
-<br>
->cordova platforms add android      //or whatever platform you would like. Find the full list on the Apache Cordova documentation
+> cordova platforms add android      //or whatever platform you would like. Find the full list on the Apache Cordova documentation
 
 <br>
 Open up android studio and navigate into the platforms folder and then into android and open up the project.
