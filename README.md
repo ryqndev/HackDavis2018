@@ -22,10 +22,11 @@ Look into your folder and find a folder called 'www'
 Delete the files inside the folder and navigate back to the HackDavis2018 folder and copy all the files and paste it into 'www'
 <br>
 Go back to your terminal and type
-<br>
+
 > cd (APP_NAME)
 
-<br>
+Inside your folder, type
+
 > cordova platforms add android      //or whatever platform you would like. Find the full list on the Apache Cordova documentation
 
 <br>
