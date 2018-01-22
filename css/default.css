@@ -1,0 +1,73 @@
+body{
+    background-color: #bcd6ff;
+}
+.label{
+    font-size: 28px;
+} 
+.textForm{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.box{
+    border: 10px solid black;
+    text-align: center;
+    font-size: 72px;
+}
+#homeWrapper{
+    display: none;
+}
+.space{
+    padding: 20px;
+}
+.pressadabutton{
+    text-align: center;
+}
+.btnSubmit{
+    margin-top: 10px;
+    border: 5px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: mediumpurple;
+}
+#backToHome{
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 5px solid slateblue;
+    background-color: blue;
+    color: white;
+    font-size: 32px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.helpButton:active{
+    background-color: red;
+    border: 10px solid darkred;
+    color: white;
+}
+.helpButton{
+    height: 80vw;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50vw;
+    background-color: greenyellow;
+    border: 10px solid green;
+    text-align: center;
+    padding-top: 23vw;
+    font-size: 80px;
+}
+p{
+    font-size:100px;
+}
+#title{
+    padding: 20px;
+    text-align: center;
+    font-size: 48px;
+    width: 100vw;
+    background-color: red;
+    border-bottom: 15px solid yellow;
+}

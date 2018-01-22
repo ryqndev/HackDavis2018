@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            EmergenSpeed
+            Schlong
         </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/default.css">
@@ -15,13 +15,14 @@
         <script src="js/script.js"></script>
     </head>
     <body onload="pullthisshiz()">
-        <div id="wrapper">
-            <p id="title">
-                Emergency Contacts   
-            </p>
-            <div class="container">
+        <div class="container">
+            <div id="wrapper">
                 <div class="row">
-                    <div class="space">
+                    <div class="col-12">
+                        <p id="title">
+                            Emergency Contacts   
+                        </p>
+                    </div>
                     <div class="col-12">
                         <p class="label">
                             Name:
@@ -55,25 +56,17 @@
                         <input id="relation" type="text" class="textForm">
                     </div>
                     <div class="col-12">
-                        <div class="pressadabutton">
-                            <button id="submit" onclick="submitForms()" class="btnSubmit">
-                                + Add Contact
-                            </button>
-                        </div>
-                    </div>
+                        <button id="submit" onclick="submitForms()" class="btnSubmit">
+                            Add Contact
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div id="homeWrapper">
-                <div id="btnSubmit" class="helpButton" onclick="callForHelp()">
-                    Notify
-                </div>
-                <div id="backToHome" onclick="addInformation()">
-                    Change Contact Information
-                </div>   
+            <div id="btnSubmit" class="helpButton" onclick="callForHelp()">
+                Call
             </div>
-        </div>
+            <div id="Back to home">
+            </div>
+        </div>    
     </body>
 </html>
